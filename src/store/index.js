@@ -3,9 +3,16 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
+// Modules
+import Randommeal from "./modules/random";
+import Search from './modules/search'
+
 export default new Vuex.Store({
   state: {},
   mutations: {},
   actions: {},
-  modules: {}
+  modules: {
+    Randommeal: Randommeal,
+    Search: Search,
+  }
 });
