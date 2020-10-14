@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="w-md-50">
-          <v-tabs grow slider-color="grey">
+          <v-tabs fixed-tabs slider-color="grey">
             <v-tab ripple>
               Ingredients
             </v-tab>
